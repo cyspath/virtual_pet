@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Virtual Pet</title>
+  </head>
+  <body>
+    <h1>Keep your pet happy!</h1>
+    <h4>Stay above 30% or higher food and fitness</h4>
+    <div id="pet">
+        <img src="imgs/walk.gif" alt="">
+        <div id='pane'>
+            <div>Food: <span id='food'></span>%</div>
+            <div>Fitness: <span id='fitness'></span>%</div>
+            <button id='eat'>Feed Me</button>
+            <button id='exercise'>Exercise</button>
+        </div>
+    </div>
+
+    <script src="lib/pet.js"></script>
+    <script src="lib/game.js"></script>
+
+  </body>
+</html>

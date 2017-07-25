@@ -1,0 +1,10 @@
+#pet img {
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+#pane {
+    position: fixed;
+    top: 300px;
+}
